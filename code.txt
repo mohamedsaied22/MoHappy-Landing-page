@@ -1,0 +1,1904 @@
+HTML
+....................
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoHappy</title>
+    <!-- icons file -->
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- master css -->
+    <link rel="stylesheet" href="css/MO.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rowdies:wght@300;400&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+            <img src="imgs/logos/1/11.png" alt="logo">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start landing  -->
+    <div class="landing">
+        <div class="overlay"></div>
+            <div class="text">
+                <div class="content">
+                    <h2> Hello World!<br/>
+                        We Are MoHappy We Create Creativity.</h2>
+                    <p>
+                      Modular, Futuristic, Smart & Secure Enterprise Cloud Platform
+                      Simply more than an ERP Software, ePROMIS releases the All in One,
+                      Cloud/SaaS Business Management Software                    </p>
+                </div>
+            </div>
+            <i class="fas fa-angle-left change-background fa-2x"></i>
+            <i class="fas fa-angle-right change-background fa-2x"></i>
+            <ul class="bullets">
+              <li class="one"></li>
+              <li class="active"></li>
+              <li class="two"></li>
+            </ul> 
+    </div>
+    <!-- end landing  -->
+
+    <!-- start services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>
+                  Enjoy A Full Suite of Enterprise Services with MoHappy Enterprise Cloud.Designed mobile applications
+                </p>
+            </div>
+            <!-- start services boxes -->
+            <div class="services-container">
+                <div class="srv-box">
+                  <i class="fas fa-desktop fa-3x"></i>
+                  <div class="text">
+                    <h3>Integration</h3>
+                    <p>
+                      Improve Communication Between Departments with ePROMIS Integration Services.
+                    </p>
+                  </div>
+                </div>
+                <div class="srv-box">
+                  <i class="fas fa-cog fa-3x"></i>
+                  <div class="text">
+                    <h3>Partner Service and Support</h3>
+                    <p>
+                    Provide excellent support to display your business commitment to loyal clients. Manage and integrate technological innovations seamlessly for the end-user.
+                    </p>
+                  </div>
+                </div>
+                <div class="srv-box">
+                  <i class="fas fa-pencil-ruler fa-3x"></i>
+                  <div class="text">
+                    <h3>Implementation</h3>
+                    <p>
+                      Prepare Your Organization for Uncertainty.
+                    </p>
+                  </div>
+                </div>
+                <div class="srv-box">
+                  <i class="fas fa-camera fa-3x"></i>
+                  <div class="text">
+                    <h3>customization</h3>
+                    <p>
+                    Build tailor-made solutions to meet your unique business requirements. Create flexible work models, data flows, and personalized reports.
+                    </p>
+                  </div>
+                </div>
+              </div> 
+            <!-- end services boxes --> 
+            <a href="#design" class="go-down">
+            <i class="fas fa-angle-double-down fa-2x"></i>
+            </a> 
+        </div>
+    </div>
+    <!-- send services -->
+
+    <!-- Start Design -->
+    <div class="design" id="design">
+        <div class="image">
+          <img src="imgs/mob/6.png" alt="Mobile" />
+        </div>
+        <div class="text">
+          <h2>Our Design Comes With...</h2>
+          <ul>
+            <li>Responsive Design</li>
+            <li>Modern And Clean Design</li>
+            <li>Clean Code</li>
+            <li>Browser Friendly</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Design -->
+
+      <!-- start portfolio  -->
+      <div id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="main-heading">
+            <h2>Portfolio</h2>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt.
+            </p>
+          </div>
+          <ul class="shuffle">
+            <li>All</li>
+            <li>App</li>
+            <li>Photo</li>
+            <li class="active">Web</li>
+            <li>Print</li>
+          </ul>
+        </div>
+        <div class="imgs-container">
+          <div class="box">
+            <img decoding="async" src="imgs/555.png" />
+            <div class="caption">
+              <h4>HTML</h4>
+              <p>Front-End</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/66.png" alt="" />
+            <div class="caption">
+              <h4>CSS</h4>
+              <p>Front-End</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/6666.png" alt="" />
+            <div class="caption">
+              <h4>Java Script</h4>
+              <p>Front-End</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/5000.png" alt="" />
+            <div class="caption">
+              <h4>React</h4>
+              <p>Front-End</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/1000.png" alt="" />
+            <div class="caption">
+              <h4>NodeJS</h4>
+              <p>Back-end</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/1001.png" alt="" />
+            <div class="caption">
+              <h4>MongoDB</h4>
+              <p>Back-end</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/1002.png" alt="" />
+            <div class="caption">
+              <h4>full-stack</h4>
+              <p>full-stack</p>
+            </div>
+          </div>
+          <div class="box">
+            <img decoding="async" src="imgs/1003.png" alt="" />
+            <div class="caption">
+              <h4>MERN stack</h4>
+              <p>MERN stack</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="more">More</a>
+      </div>
+      <!-- end portfolio  -->
+
+      <!-- start video  -->
+      <div class="video">
+        <video autoplay muted loop >
+          <source src="../Temlate_2/imgs/video.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+          <h2>Super Awesome Video Here</h2>
+          <p>Its All You Need</p>
+          <button>See More</button>
+        </div>
+      </div>
+      <!-- end video  -->
+
+      <!-- start about  -->
+      <div id="About" class="about">
+        <div class="container">
+          <div class="main-heading">
+            <h2>About</h2>
+                <p>
+                  Headquartered in Houston, Texas, MoHappy Solutions Inc. is a leading enterprise software provider known for its outstanding service and innovative products.
+                </p>
+          </div>
+          <img src="imgs/logos/1/25.png" alt="">
+        </div>
+      </div>
+      <!-- end about  -->
+
+      <!-- start stats -->
+      <div class="stats">
+          <h2>Our Awsome Stats</h2>
+        <div class="container">
+          <div class="box">
+            <i class="fas fa-code fa-2x fa-fw"></i>
+            <div class="number">25</div>
+            <p>Designed websites</p>
+          </div>
+          <div class="box">
+            <i class="far fa-user fa-2x fa-fw"></i>
+            <div class="number">70</div>
+            <p> Mobile applications</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+            <div class="number">329</div>
+            <p>Networks are secured</p>
+          </div>
+          <div class="box">
+            <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+            <div class="number">1.157</div>
+            <p>mobile solied</p>
+          </div>
+        </div>
+      </div>
+      <!-- end stats -->
+
+      <!-- start skills -->
+      <div class="our-skills">
+        <div class="container">
+          <div class="testimonials">
+            <h3>Testimonials</h3>
+            <p> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt. 
+            </p>
+            <div class="content">
+              <img src="imgs/50.png" alt="">
+              <div class="text">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt. 
+                <p>Mohamed Said, CEO</p>
+              </div>
+            </div>
+            <div class="content">
+              <img src="imgs/51.png" alt="">
+              <div class="text">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt. 
+                <p>Mo Mo, Web Develpoer</p>
+              </div>
+            </div>
+            <ul class="bullets">
+              <li></li>
+              <li class="active"></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <p> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt. 
+            </p>
+            <div class="prog-holder">
+              <h4>HTML &amp; CSS</h4>
+              <div class="prog">
+                <span style="width: 90%" data-progress="90%" ></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>JavaScript</h4>
+              <div class="prog">
+                <span style="width: 80%" data-progress="80%" ></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>Networking</h4>
+              <div class="prog">
+                <span style="width: 85%" data-progress="85%" ></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>Cloud Solutions</h4>
+              <div class="prog">
+                <span style="width: 70%" data-progress="70%" ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end skills -->
+
+      <!-- start quote  -->
+      <div class="quote">
+        <div class="container">
+          <q>Coming events cast their shadows before.</q>
+            <span>Mohamed Said</span>
+          </div>
+      </div>  
+      <!-- end quote  -->
+
+      <!-- start pricing  -->
+      <div id="pricing" class="pricing">
+        <div class="container">
+          <div class="main-heading">
+            <h2>Pricing</h2>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+              tincidunt.
+            </p>
+          </div>
+          <div class="plans">
+            <div class="plan">
+              <div class="head">
+                <h3>Basic</h3>
+                <span>19</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Premium</h3>
+                <span>29</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Pro</h3>
+                <span>39</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Platinum</h3>
+                <span>49</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <p class="contact-text">Contact us if you have special request</p>
+          <a href="#" class="contact-link">Contact Us</a>
+        </div>
+      </div>
+      <!-- end pricing  -->
+
+      <!-- start subscibe -->
+      <div class="subscribe">
+        <div class="container">
+          <form action="">
+            <i class="far fa-envelope fa-lg"></i>
+            <input type="email" name="mail" placeholder="please enter Your Email" />
+            <input type="submit" value="Subscribe" />
+            </form>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
+            </p>    
+        </div>
+      </div>
+      <!-- end subscibe -->
+
+      <!-- start contact -->
+
+      <div class="contact" id="contact">
+        <div class="container">
+          <div class="main-heading">
+            <h2>contact</h2>
+            <p>
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.
+            </p>   
+          </div>
+            <div class="content">
+              <form action="">
+                <input class="main-input" type="text" name="text" placeholder="your name" >
+                <input class="main-input" type="email" name="mail" placeholder="your mail" >
+                <textarea class="main-input" name="message" placeholder="your message"></textarea>
+                <input type="submit" value="Send Message" />
+              </form>
+              <div class="info">
+                <h4>Get In Touch</h4>
+                <span class="phone">+00 011 417 99 202</span>
+                <span class="phone">+00 111 399 59 79</span>
+                <h4>Where We Are</h4>
+                <address>Awesome Address 23<br />cairo,<br />111.399.59.979<br />EGYPT</address>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end contact -->
+
+      <!-- start footer  -->
+      <div class="footer">
+        <div class="container">
+          <img src="imgs/logos/1/11.png" alt="logo">
+          <p>We Are Social</p>
+        
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fas fa-home"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        
+        <p class="copyright">&copy; 2023 <span>MoHappy</span> All Right Reserved</p>
+      </div>
+      </div>
+      <!-- end footer  -->
+</body>
+</html>
+
+
+
+CSS
+.......
+
+
+/* start variables  */
+:root {
+    --main-color: #19c8fa;
+    --transparent-color: rgb(15 116 143 / 70%);
+    --texting-color: #777;
+    --section-padding: 100px;
+    --main-transistion: .5s;
+}
+/* end variables  */
+/* start global */
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 0;
+margin: 0S;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+}
+/* end global */
+/* start componants */
+.main-heading {
+  text-align: center;
+}
+.main-heading h2 {
+  font-size: 40px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+  transition: 1s;
+  margin: 10px auto 20px;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main-heading h2:hover {
+  transition-delay: .8s;
+  border: 1px solid white;
+  color: white;
+  transform: scale(1.2) translateY(-10PX) ;
+/* background-color: var(--main-color); */
+}
+.main-heading h2::before,
+.main-heading h2::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background-color: var(--transparent-color);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+.main-heading h2:hover::before {
+  z-index: -1;
+  animation: left-move 1s linear forwards ;
+  background-color: var(--main-color);
+
+}
+.main-heading h2:hover::after {
+  z-index: -1;
+  animation: right-move 1s linear forwards;
+  background-color: var(--transparent-color);
+
+}
+.main-heading h2:hover::before,
+.main-heading h2:hover::after,
+.main-heading h2:hover {
+  cursor: pointer;
+  display: block;
+  /* transform: rotate(360deg); */
+}
+.main-heading h2::before {
+  left: -6%;
+}
+.main-heading h2::after {
+  right: -6%;
+}
+
+@keyframes left-move {
+  50% {
+    width: 12px;
+    height: 12px;
+    left: 0;
+  }
+  100% {
+    border-radius: 0;
+    left: 0;
+    width: 50.5%;
+    height: 100%;
+    border-radius: 5%;
+  }
+  }
+  @keyframes right-move {
+    50% {
+      width: 12px;
+      height: 12px;
+      right0: 0;
+    }
+    100% {
+      border-radius: 0;
+      right: 0;
+      width: 50.5%;
+      height: 100%;
+      border-radius: 5%;
+      color: var(--transparent-color);
+    }
+    }
+
+.main-heading p {
+    width: 550px;
+    margin: 0 auto 100px;
+    max-width: 100%;
+    color: var(--texting-color);
+    line-height: 1.8;
+}
+
+/* end componants */
+/* start header  */
+header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 97px;
+
+}
+header .container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #a2a2a2;
+    bottom: 0;
+    width: calc(100% - 30px);
+    left: 15px;
+    margin-bottom: 15px;
+}
+header .logo img {
+    height: 70px;
+    transition: .8s;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+header .logo img:hover {
+    transform: rotate(360deg);
+    width: 150%;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header nav .toggle-menu {
+    color: white;
+    font-size: 22px;
+}
+@media (min-width: 768px) {
+    header nav .toggle-menu {
+        display: none;
+    }
+}
+header nav ul {
+display: flex;
+}
+@media (max-width: 767px) {
+    header nav ul{
+        display: none;
+    }
+    header nav .toggle-menu:hover + ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0 0 0 / 50%);
+    } 
+    header nav .toggle-menu:hover + ul li a {
+        padding: 15px !important;
+    }
+}
+header nav ul li a {
+    padding: 40px 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.5s;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    transition: var(--main-transistion);
+  }
+  header nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--main-color);
+    top: 25px;
+    left: -100%;
+    transition: var(--main-transistion);
+  }
+  header nav ul li a:hover::before {
+    left: 0;
+    top: 25px;
+    color: var(--main-color);
+    width: 90%;
+  }
+  header nav ul li a:hover {
+    color: var(--main-color);
+  }
+  header nav ul li a.active{
+    /* border-bottom: 1px solid var(--main-color); */
+    color: var(--main-color) ;
+  }
+
+  header nav .form {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    border-left: 2px solid white;
+   margin-left: 30px;
+  }
+  header nav .form i {
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  header nav .form i:hover {
+    color: var(--main-color);
+  }
+/* end header  */
+/* start landing  */
+.landing {
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(../imgs/logos/p2.png);
+    background-size: cover;
+    position: relative;
+}
+.landing .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 60%);
+}
+.landing .text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: var(--main-color);
+    width: 42%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+.landing .text {
+    width: 100%;
+    height: 50%;
+}
+.landing .text .content {
+    max-width: 100%;
+}
+}
+.landing .text .content {
+    max-width: 450px;
+}
+
+.landing .text .content h2{
+font-size: 30px;
+font-weight: normal;
+line-height: 1.5;
+margin-bottom: 20px;
+transition: 1s;
+transition-delay: .2s;
+}
+.landing .text .content h2:hover {
+    color: rgb(255, 255, 0);
+    line-height: 2;
+}
+
+.landing .text .content p {
+font-size: 14px;
+line-height: 2;
+transition: 1s;
+transition-delay: .2s;
+transition-timing-function: ease-out;
+}
+.landing .text .content p:hover {
+    color: yellow;
+    /* background-color: ; */
+    
+}
+.landing .change-background {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: azure;
+}
+@media (max-width: 767px) {
+.landing .change-background {
+    display: none;
+}
+}
+.landing .fa-angle-left {
+    left: 30px;
+    transition: 0.5s;
+    cursor: grabbing;
+}
+.landing .fa-angle-right {
+    right: 30px;
+    transition: 0.5s;
+    cursor: grabbing;
+}
+.landing .fa-angle-left:hover {
+color: var(--transparent-color);
+transform: translate(-15px, -15px);
+}
+.landing .fa-angle-right:hover {
+    color: var(--transparent-color);
+    transform: translate(15px, -15px); 
+}
+.landing .bullets {
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 30px;
+display: flex;
+}
+
+.landing .bullets li {
+width: 20px;
+height: 20px;
+border: 1px solid white;
+border-radius: 50%;
+margin-right: 20px;
+transition: .5s;
+animation-name: up-and-down ;
+animation-duration: .9s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.landing .bullets .one {
+      
+    border-color: var(--main-color);
+}
+.landing .bullets .two {
+    animation-delay: .9s; 
+    border-color: var(--main-color);
+}
+@keyframes up-and-down {
+    to {
+        opacity: .5;
+        transform: translateY(-20px);
+    }
+}
+.landing .bullets li.active {
+background-color: var(--main-color);
+border-color: var(--main-color);
+animation-delay: .6s;
+}
+.landing .bullets li:hover {
+    background-color: var(--main-color);
+    color: var(--main-color);
+}
+/* end landing  */
+
+/* start services  */
+.services {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    position: relative;
+}
+@media (min-width: 767px)
+{
+    .services .services-container {
+        display: grid ;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-column-gap:50px ;
+        grid-row-gap:70px ;
+    }
+    
+}
+.services .srv-box {
+    display: flex;
+}
+.services .srv-box i {
+    margin-right: 50px;
+    margin-top: 5px;
+    color: var(--main-color);
+    transition: .5s;
+}
+.services .services-container .srv-box i:hover {
+    color: var(--transparent-color);
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .services .srv-box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .services .srv-box i {
+      margin: 0 0 30px;
+    }
+  }
+.services .srv-box h3 {
+margin-bottom: 30px;
+color: #333;
+transition: .5s;
+}
+.services .srv-box h3:hover {
+    color: var(--main-color);
+    transform: translateX(10px);
+    cursor: pointer;
+}
+.services .srv-box p {
+color: var(--texting-color);
+line-height: 2;
+transition: .6s;
+transition-delay: .2s;
+}
+.services .srv-box p:hover {
+    transform: translateX(10px);
+
+}
+.services .go-down {
+  position: absolute;
+  left: 50%;
+  bottom: 30PX;
+  transform: translateX(-50%);
+  color: var(--transparent-color);
+  animation: up-down 2s infinite linear;
+}
+@keyframes up-down {
+20%, 60%, 90% {
+   bottom: 10px;
+}
+40%, 80% {
+  bottom: 30PX;
+}
+}
+/* end services  */
+
+/* start design  */
+.design {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  height: 600px;
+  position: relative;
+  background-image: url("../imgs/design/1.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.design::before {
+    content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+}
+.design .image,
+.design .text {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+.design .image {
+    text-align: center;
+  }
+@media (max-width: 767px) {
+   .design .image {
+    display: none;
+    }
+}
+  .design .image img {
+    position: relative;
+    bottom: -0;
+    left: -50px;
+    transition: var(--main-transistion);
+    animation: 5s moving infinite ease-in-out;
+    border-radius: 25%;
+  }
+  @keyframes moving {
+    0%, 100% {
+      left: -50px;    }
+    50% {
+      bottom: 00px;
+      left: 50px;
+    }
+  }
+  .design .image img:hover {
+    /* border-radius: 25%; */
+    transform: rotate(360deg);
+  }
+  .design .text {
+    color: white;
+    padding: 50px;
+      right: 10px;
+    transition: 1.5s;
+}
+.design .text:hover {
+    background-color: var(--transparent-color);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 2%;
+    color: white;
+    transform: translateX(-50px);
+}
+@media (max-width: 767px) {
+  .design .text:hover {
+    transform: none;
+  }
+}
+@media (max-width: 1150px) {
+  .design .text:hover {
+    transform: none;
+  }
+}
+  .design .text h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: aqua;
+  }
+  .design .text ul li {
+    padding: 15px 0;
+  }
+  .design .text ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f108";
+    font-weight: 900;
+    margin-right: 20px;
+    position: relative;
+    top: 1px;
+  }  
+  
+/* end design  */
+
+/* start portfolio  */
+.portfolio {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);   
+}
+.portfolio .shuffle {
+    display: flex;
+    justify-content: center;
+}
+.portfolio .shuffle li {
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.portfolio .shuffle li:hover,
+.portfolio .shuffle li.active:hover
+{
+background-color: var(--main-color);
+}
+.portfolio .shuffle li.active {
+    background-color: var(--main-color);
+    color: white;
+    transition: .5s;
+}
+.portfolio .imgs-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex-basis: 25%;
+}
+@media (max-width: 767px) {
+  .portfolio .imgs-container {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+.portfolio .imgs-container .box {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .imgs-container .box:hover .caption {
+   bottom: -20px;
+}
+.portfolio .imgs-container .box:hover img {
+transform: translateY(-20px) scale(1.1);
+}
+@media (min-width: 768px) {
+    .portfolio .imgs-container .box {
+      flex-basis: 25%;
+    }
+  }
+  @media (min-width: 1199px) {
+    .portfolio .imgs-container .box {
+      flex-basis: 25%;
+    }
+  }
+.portfolio .imgs-container .box img {
+    max-width: 300px; 
+    transition: .5s; 
+}
+.portfolio .imgs-container .box .caption {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    transition: .5s;
+    bottom: -100%;
+    
+}
+.portfolio .imgs-container .box .caption h4 {
+font-weight: normal;
+margin-bottom: 10px;
+}
+.portfolio .imgs-container .box .caption p {
+    color: var(--main-color);
+}
+.portfolio .more {
+    /* background-color: var(--main-color); */
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    border-radius: 6px;
+    background: linear-gradient(to right, var(--main-color) 50%, var(--transparent-color) 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+  .portfolio .more:hover  {
+    background-position: left bottom;
+    color: black;
+  }
+
+/* end portfolio  */
+
+/* start video  */
+.video {
+    position: relative;
+  }
+  .video::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 40%);
+  }
+  .video video {
+    width: 100%;
+  }
+  .video .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    background-color: var(--transparent-color);
+    color: white;
+    text-align: center;
+  }
+  .video .text h2 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .video .text p {
+    margin-bottom: 30px;
+  }
+  .video .text button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    transition: 1s;
+  }
+  .video .text button:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+  }
+/* end video  */
+/* start about  */
+.about {
+  padding-top: var(--section-padding);
+  overflow: hidden;
+  text-align: center;
+}
+.about img {
+  position: relative;
+  bottom: -100px;
+  margin-top: -120px;
+  max-width: 100%;
+  transition: 1s;
+  transition-delay: .3s;
+  animation: about 2s ease-out infinite alternate;
+  z-index: -50;
+}
+@keyframes about {
+  100% {
+    bottom: -20px;
+  }
+}
+/* .about img:hover {
+  bottom: -40px;
+
+} */
+/* end about  */
+
+/* start stats  */
+.stats {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  text-align: center;
+  position: relative;
+  background-image: url(../imgs/design/1.png);
+  background-size: cover;
+}
+.stats h2 {
+  width: fit-content;
+  margin: 0 auto 60px;
+  color: white;
+  font-size: 40px;
+}
+.stats::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(0 0 0 / 50%);
+}
+.stats .container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+} 
+.stats .container .box {
+  color: white;
+  padding: 50px;
+  background-color: var(--transparent-color);
+  border-radius: 10px;
+  position: relative;
+  opacity: .7;
+
+}
+@media (max-width: 767px) {
+  .stats .container .box {
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .stats .container .box {
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .stats .container .box {
+    flex-basis: 25%;
+  }
+}
+
+.stats .box:hover::before,
+.stats .box:hover::after {
+  height: 90%;
+}
+.stats .box::before,
+.stats .box::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: var(--main-color);
+  transition: 1s;
+  height: 0;
+}
+.stats .box::before {
+  top: 5%;
+  right: 0;
+  /* background-color: wheat; */
+
+}
+.stats .box::after {
+  left: 0;
+  bottom: 5%;
+  /* background-color: var(--transparent-color); */
+
+}
+.stats .container .box i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-color);
+  border-radius: 25%;
+  margin: 0 auto 20px;
+}
+.stats .container .box .number {
+  font-size: 40px;
+  font-weight: bold;
+  transition: 1s;
+}
+.stats .container .box p {
+font-size: 14px;
+padding: 0 auto 10px;
+transition: 1s;
+}
+.stats .box:hover {
+  opacity: 1;
+}
+
+.stats .box:hover p {
+  color: var(--main-color);
+}
+.stats .box:hover .number {
+color: var(--main-color);
+}
+.stats .box .number:hover + p {
+  color: var(--main-color);
+}
+/* end stats  */
+
+/* start skills */
+.our-skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.our-skills .container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+  .our-skills .container > div {
+    flex-basis: 45%;
+  }
+}
+.our-skills .container > div > h3 {
+  margin: 0 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.our-skills .container > div > p {
+  text-align: center;
+  color: var(--texting-color);
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.our-skills .testimonials .content {
+display: flex;
+align-items: center;
+margin-bottom: 30px;
+}
+.our-skills .testimonials .content img {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  border-radius: 50%;
+  transition: 1s;
+  transition-delay: .2s;
+}
+@media (max-width: 767px) {
+  .our-skills .testimonials .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .our-skills .testimonials .content img {
+  margin: 0 auto 20px;
+  }
+}
+.our-skills .testimonials .content img:hover {
+  transform:  scale(1.6);
+  border-radius: 25%;
+}
+.our-skills .testimonials .text {
+line-height: 1.8;
+color: black;
+border-bottom: 1px solid black;
+font-size: 16px;
+font-weight: bold;
+margin-top: 25px;
+}
+.our-skills .testimonials .text p {
+ color: #777;
+ text-align: end;
+ margin-bottom: 10px; 
+}
+.our-skills .testimonials .bullets {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.our-skills .testimonials .bullets li {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: .5s;
+animation-name: up-and-down ;
+animation-duration: .9s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes up-and-down {
+  to {
+      opacity: .5;
+      transform: translateY(-20px);
+  }
+}
+.our-skills .testimonials .bullets li.active {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  animation-delay: .3s;
+}
+
+
+
+.our-skills .skills .prog-holder {
+margin-bottom: 50px;
+}
+.our-skills .skills .prog-holder h4 {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 65px; 
+}
+.our-skills .skills .prog-holder h4:hover  {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.our-skills .skills .prog-holder .prog {
+background-color: #dedadc;
+height: 25px;
+}
+.our-skills .skills .prog-holder .prog span {
+position: relative;
+height: 100%;
+background-color: var(--main-color);
+display: block;
+}
+.our-skills .skills .prog-holder .prog span::before {
+content: attr(data-progress);
+color: white;
+    background-color: var(--main-color);
+    position: absolute;
+    top: -40px;
+    right: -15px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 20%;
+}
+.our-skills .skills .prog-holder .prog span::after {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: var(--main-color) transparent transparent transparent;
+    position: absolute;
+    right: -8px;
+    top: -15px;
+}
+/* end skills */
+
+
+/* start quote  */
+.quote {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-image: url(../imgs/design/1.png);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+.quote::before {
+    content: '';  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 10%);
+}
+.quote .contanier {
+position: relative;
+}
+.quote{
+  transition: 2s;
+}
+.quote q {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.quote:hover {
+transform: scaleY(1.2);
+color: white;
+font-size: 20px;
+}
+/* end quote  */
+Y
+/* start pricing  */
+.pricing {
+  margin-top: 100px;
+ padding-top: var(--section-padding);
+ padding-bottom: var(--section-padding);
+}
+.pricing .plans {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 20px;
+}
+.pricing .plans .plan {
+background-color: #fbfbfb;
+text-align: center;
+}
+.pricing .plans .plan .head {
+padding: 40px 20px;
+border-top: 1px solid var(--main-color);
+border-bottom: 1px solid var(--main-color);
+}
+.pricing .plans .plan .head h3 {
+margin-bottom: 20px;
+font-weight: normal;
+text-transform: uppercase;
+}
+.pricing .plans .plan .head span {
+font-size: 60px;
+font-weight: 600;
+}
+.pricing .plans .plan .head span::before {
+  content: "$";
+  font-size: 25px;
+  position: relative;
+  top: -40px;
+  margin-right: 15px;
+  font-weight: normal;
+}
+.pricing .plans .plan .head span::after {
+  content: "/mo";
+  font-size: 20px;
+  position: relative;
+  right: -15px;
+}
+.pricing .plans .plan ul {
+border-bottom: 1px solid var(--main-color);
+}
+.pricing .plans .plan ul li {
+  padding-bottom: 15px;
+  position: relative;
+}
+.pricing .plans .plan ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  background-color: var(--main-color);
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pricing .plans .plan .foot a {
+  text-decoration: none;
+  display: block;
+  padding: 20px 20px;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  width: fit-content;
+  margin: 20px auto;
+  transition: .5s;
+  border-radius: 6px;
+}
+.pricing .plans .plan .foot a:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+.pricing .contact-text {
+  text-align: center;
+  margin: 50px auto 20px;
+  font-size: 20px;
+}
+
+.pricing .contact-link {
+  display: block;
+  text-decoration: none;
+  width: fit-content;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  color: white;
+  margin: 40px auto;
+  padding: 20px;
+  transition: .5s;
+  border-radius: 6px;
+  background: linear-gradient(to right, var(--main-color) 50%, var(--transparent-color) 50% );
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.pricing .contact-link:hover {
+  background-position: left bottom;
+  color: black;}
+/* end pricing  */
+
+/* start subscibe */
+.subscribe {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  position: relative;
+  background-image: url(../imgs/design/1.png);
+  background-size: cover;
+  color: white;
+}
+.subscribe::before {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 50%);
+}
+.subscribe .container {
+position: relative;
+display: flex;
+align-items: center;
+}
+@media (max-width: 992px) {
+  .subscribe .container {
+    flex-direction: column;
+  }
+}
+.subscribe form {
+  display: flex;
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+.subscribe form i {
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 17px;
+}
+.subscribe form input[type="email"] {
+  border: 1px solid var(--transparent-color);
+  border-right: none;
+  background: none;
+  caret-color: var(--main-color);
+  padding: 20px 20px 20px 60px;
+  width: calc(100% - 120px);
+  color: white;
+}
+.subscribe form input[type="submit"] {
+  width: 120px;
+  width: 120px;
+  padding: 10px 20px;
+  border: 1px solid var(--transparent-color);
+  border-left: none;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: .5s;
+  background: linear-gradient(to right, var(--main-color) 50%, var(--transparent-color) 50% );
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.subscribe form input[type="submit"]:hover {
+  background-position: left bottom;
+  color: black;
+}
+.subscribe form input[type="submit"]:focus,
+.subscribe form input[type="email"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe p {
+margin-left: 50px;
+line-height: 1.8;
+}
+@media (max-width: 992px) {
+  .subscribe p {
+    margin: 20px;
+    text-align: center;
+  }
+}
+/* end subscibe */
+
+/* start contact */
+.contact {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px ) {
+  .contact .content {
+    flex-direction: column;
+  }
+}
+.contact form {
+  flex-basis: 70%;
+}
+.contact form .main-input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  caret-color: var(--main-color);
+  transition: 3s;
+}
+.contact form .main-input:focus {
+  outline: none;
+  background-color: var(--main-color);
+  border: 1px solid var(--transparent-color);
+}
+.contact form textarea.main-input {
+  height: 200px;
+} 
+.contact form input[type="submit"] {
+  padding: 20px;
+  border: none;
+  color: white;
+  background-color: var(--main-color);
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .5s;
+  border-radius: 6px;
+  background: linear-gradient(to right, var(--main-color) 50%, var(--transparent-color) 50% );
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.contact form input[type="submit"]:hover {
+  background-position: left bottom;
+  color: black;
+}
+.contact .content .info {
+  flex-basis: 25%;
+}
+@media (max-width: 767px ) {
+  .contact .content .info {
+    text-align: center;
+    order: -1;
+  }
+}
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin: 0 0 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.contact .content .info .phone {
+  display: block;
+  color: var(--texting-color);
+  margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+@media (max-width: 767px ) {
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
+.contact .content .info address {
+  color: var(--texting-color);
+  line-height: 2;
+}
+@media (max-width: 767px ) {
+  .contact .content .info address {
+    margin-bottom: 20px;
+  }
+}
+/* end contact */
+
+/* start footer  */
+.footer {
+  padding-top: calc (var(--section-padding)) /2;
+  padding-bottom: calc (var(--section-padding)) /2;
+  text-align: center;
+  position: relative;
+  background-image: url(../imgs/design/1.png);
+  background-size: cover;
+  color: white;
+}
+.footer::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 5px;
+  background-color: rgb(0 0 0 / 70%);
+}
+.footer .container {
+  position: relative;
+}
+.footer img {
+  margin: 20px 0;
+  width: 200px;
+  transition: 1s;
+  border-radius: 50%;
+}
+.footer img:hover {
+transform: scale(1.2);
+border-radius: 25%;
+}
+.footer p:not(.copyright) {
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  width: fit-content;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.footer .social-icons i {
+  padding: 10px 15px;
+}
+.footer .social-icons i:hover {
+  cursor: pointer;
+  color: var(--main-color);
+}
+.footer .copyright {
+  margin-top: 60px;
+}
+.footer .copyright span {
+  font-weight: bold;
+  color: var(--main-color);
+}
+.footer .copyright span:hover {
+  cursor: pointer;
+}
+/* end footer  */
+
